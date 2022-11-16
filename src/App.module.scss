@@ -1,0 +1,25 @@
+.content {
+  @apply  m-8;
+
+  .title {
+    @apply text-center font-bold text-gray-50 pb-3;
+  }
+
+  .input {
+    @apply block outline-none h-10 mx-auto my-0 w-4/12 bg-slate-500 rounded-md mb-2 border-2	 border-r-red-700	;
+    
+  }
+
+  .btn {
+    @apply block h-12 bg-orange-600 mx-auto my-0 w-4/12 rounded-lg border-2 border-slate-600;
+      
+    
+   &:hover {
+      @apply bg-orange-800 transition-all
+    } 
+  }
+
+  
+
+  /*block center my-0 mx-auto mt-5 w-20 border-2 border-grey-400 bg-green-500 rounded-xl hover:bg-gray-400 md:bg-red-300 dark:bg-red-600;*/
+}
